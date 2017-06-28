@@ -2,7 +2,9 @@
 
 ## Description
 
-This repository contains only scripts modified from or not provided by the original pipeline, which can be found [here](https://github.com/CGSbioinfo/RNASeq_pipeline) 
+This repository contains only commands and scripts modified from or not provided by the original pipeline, which can be found [here](https://github.com/CGSbioinfo/RNASeq_pipeline) 
+
+Its purpose is to provide commands and scripts not available elsewhere and to highlight modifications made by the author \(C A Landers\). All additional, explanatory code comments have been added either during construction of code or to aid in its modification - large sections of some scripts have thus been left uncommented. 
 
 ## Comments
 Scripts and commands related to the same step of analysis are provided in the same document
