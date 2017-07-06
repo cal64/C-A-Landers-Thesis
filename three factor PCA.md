@@ -2,7 +2,7 @@
 
 ### Description
 
-Fragment of code designed to be inserted into the CGS pipeline differential expression script, in order to produce a PCA plot displaying PCs 1 through 3
+Fragment of code designed to be inserted into the CGS pipeline differential expression script (https://github.com/CGSbioinfo/RNASeq_pipeline/blob/master/scripts/deseq2_functions.R) , in order to produce a PCA plot displaying PCs 1 through 3
 
 ### Code
 
