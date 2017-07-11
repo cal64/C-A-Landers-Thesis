@@ -1,10 +1,10 @@
-### Designers: 
+### Designers: C A Landers and Maria Gomez
 
 ### Description
 
-
-Arguments file - reference pipeline
-
+Code used to perform third and final round of modelling, and produce plots discussed in Chapter Three.
+Note that this is not a script - each element must be copied into R and run 'manually'.
+For detail on how arguments file is created see https://github.com/CGSbioinfo/RNASeq_pipeline .
 
 ### Code
 
@@ -17,7 +17,6 @@ suppressMessages(library(ggplot2))
 suppressMessages(library(RColorBrewer))
 suppressMessages(library(matrixStats))
 suppressMessages(library(calibrate))
-
 
 ######################################################################
                               Setup
