@@ -317,14 +317,9 @@ dev.off()
 
 # modified from http://www.gettinggeneticsdone.com/2014/05/r-volcano-plots-to-visualize-rnaseq-microarray.html 
 
-png(paste0(outdir, '/Volcano_plot',".png"))
+png(paste0(outdir, '/Volcano_plot',".png"), width = 5*600, height = 5*600, res = 600, pointsize = 8)
 with(res.df, plot(log2FoldChange, -log10(pvalue), pch=20, main="Volcano plot", xlim=c(-2.5,2)))
-#colored points: red if padj<0.1, orange if <0.05, green if <0.01)
-with(subset(res.df, padj<0.1 ), points(log2FoldChange, -log10(pvalue), pch = 20, col="red"))
-with(subset(res.df, padj<.05 ), points(log2FoldChange, -log10(pvalue), pch = 20, col="orange"))
-with(subset(res.df, padj<.01 ), points(log2FoldChange, -log10(pvalue), pch = 20, col="green"))
-# Label points where padj<0.1 with the textxy function from the calibrate plot
-with(subset(res.df, padj<0.1), textxy(log2FoldChange, -log10(pvalue), labs=GeneName, cex=.8))
 dev.off()
+
 
 ```
